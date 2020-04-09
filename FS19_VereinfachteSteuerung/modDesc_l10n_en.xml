@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_HochRunter" 										text="H_VB: Equipment front rear up / down"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AnAus" 											text="H_VB: Appliances Front Rear On / Off"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AufZU" 											text="H_VB: Equipment Front Rear Unfold"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_abkoppeln" 												text="H_VB: Uncouple devices at the front"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_abkoppeln" 											text="H_VB: Uncouple devices at the rear"/>
+		
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_HochRunter" 											text="H_VB: Equipment front up / down"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_HochRunter" 											text="H_VB: Equipment rear up / down"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_AufZU" 													text="H_VB: Equipment front Unfold"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_AufZU" 												text="H_VB: Equipment rear Unfold"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_AnAus" 													text="H_VB: Equipment front on/off"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_AnAus" 												text="H_VB: Equipment rear on/off"/>
+		
+		<text name="input_FS19_H_VereinfachteSteuerung_CA_kamera" 														text="H_VB: Camera"/>
+	</texts>
+</l10n>

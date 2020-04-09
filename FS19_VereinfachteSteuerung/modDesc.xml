@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+  <author>Hummel2211</author>
+
+
+	<version>1.3.0.6</version>
+
+	<title>
+		<de>Vereinfachte Steuerung</de>
+		<en>Simplified control</en>
+		<fr>Contrôle simplifié</fr>
+	</title>
+
+	<description>
+		<de><![CDATA[Vereinfacht die Steuerung von Angekoppelten Geräte. Steuert bis zu zwei vorne und hinten gleichzeitig.]]></de>
+		<en><![CDATA[Simplifies the control of docked devices. Controls up to two front and rear simultaneously]]></en>
+		<fr><![CDATA[Simplifie le contrôle des périphériques ancrés. Contrôle jusqu'à deux avant et arrière simultanément]]></fr> 
+	</description>
+
+	<iconFilename>FS19_H_VereinfachteSteuerung.dds</iconFilename>
+
+	<multiplayer supported="true"/>
+
+	<l10n filenamePrefix="modDesc_l10n"/>
+
+
+
+
+
+	<actions>
+		<action name="FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AufZU"          			category="VEHICLE"/>	
+		<action name="FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_HochRunter"          	category="VEHICLE"/>
+		<action name="FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AnAus"  					category="VEHICLE"/>
+		
+		<action name="FS19_H_VereinfachteSteuerung_AJ_vorne_abkoppeln"          			category="VEHICLE"/>
+		<action name="FS19_H_VereinfachteSteuerung_AJ_hinten_abkoppeln"          			category="VEHICLE"/>
+		
+		<action name="FS19_H_VereinfachteSteuerung_AJ_vorne_AufZU"          				category="VEHICLE"/>
+		<action name="FS19_H_VereinfachteSteuerung_AJ_vorne_HochRunter"          			category="VEHICLE"/>		
+		<action name="FS19_H_VereinfachteSteuerung_AJ_vorne_AnAus"          				category="VEHICLE"/>
+		
+		<action name="FS19_H_VereinfachteSteuerung_AJ_hinten_AufZU"          				category="VEHICLE"/>
+		<action name="FS19_H_VereinfachteSteuerung_AJ_hinten_HochRunter"          			category="VEHICLE"/>
+		<action name="FS19_H_VereinfachteSteuerung_AJ_hinten_AnAus"          				category="VEHICLE"/>	
+		
+		<action name="FS19_H_VereinfachteSteuerung_CA_kamera"          						category="VEHICLE"/>
+
+		<!--action name="FS19_H_TESTEN"          		category="VEHICLE"/-->		
+	</actions>
+
+	<inputBinding>
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AufZU">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_7" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+		
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_HochRunter">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_8" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+	
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AnAus">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_9" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+	
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_vorne_abkoppeln">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_divide" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+	
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_hinten_abkoppeln">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_multiply" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+		
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_vorne_AufZU">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_1" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>	
+		
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_vorne_HochRunter">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_2" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_vorne_AnAus">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_3" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_hinten_AufZU">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_4" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+		
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_hinten_HochRunter">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_5" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+		
+		<actionBinding action="FS19_H_VereinfachteSteuerung_AJ_hinten_AnAus">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_6" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding>
+		
+		<actionBinding action="FS19_H_VereinfachteSteuerung_CA_kamera">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_slash" axisComponent="+" inputComponent="+" index="1"/>
+		</actionBinding>
+		
+		
+		<!--actionBinding action="FS19_H_TESTEN">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_+" axisComponent="+" inputComponent="+" index="2"/>
+		</actionBinding-->
+		
+	</inputBinding>
+
+	<extraSourceFiles>
+		<sourceFile filename="FS19_H_VereinfachteSteuerung_Register.lua" />
+	</extraSourceFiles>
+
+</modDesc>

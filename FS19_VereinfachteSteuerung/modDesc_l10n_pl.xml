@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_HochRunter" 										text="H_VB: Wyposażenie przód tył góra / dół"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AnAus" 											text="H_VB: Urządzenia Front Rear On / Off"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_vorne_AufZU" 											text="H_VB: Przedni tył urządzenia rozwijany"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_abkoppeln" 												text="H_VB: Odłącz urządzenia z przodu"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_abkoppeln" 											text="H_VB: Odłącz urządzenia z tyłu"/>
+		
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_HochRunter" 											text="H_VB: Wyposażenie przód / dół"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_HochRunter" 											text="H_VB: Sprzęt z tyłu w górę / w dół"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_AufZU" 													text="H_VB: Otwórz przód urządzenia"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_AufZU" 												text="H_VB: Otwórz urządzenia z tyłu"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_vorne_AnAus" 													text="H_VB: Urządzenia Front On / Off"/>
+		<text name="input_FS19_H_VereinfachteSteuerung_AJ_hinten_AnAus" 												text="H_VB: Urządzenia z tyłu włączone / wyłączone"/>
+		
+		<text name="input_FS19_H_VereinfachteSteuerung_CA_kamera" 														text="H_VB: Kamera"/>
+	</texts>
+</l10n>
